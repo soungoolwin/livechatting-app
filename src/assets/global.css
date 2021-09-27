@@ -1,0 +1,20 @@
+.home {
+margin-top: 10%;
+}
+.switchbtn{
+    cursor: pointer;
+}
+.errstyle{
+    color: red;
+}
+
+#main {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content: space-between;
+  }
+  #main div {
+   margin: auto auto;
+  }
