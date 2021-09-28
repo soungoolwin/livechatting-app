@@ -10,7 +10,7 @@
         </div>
         <p class="errstyle" v-if="err">{{err}}</p>
         <button type="submit" class="btn btn-primary">Login</button>
-        <p>Create account?<span @click="switchsignup">Signup</span></p>
+        <p>Create account? <span @click="switchsignup" class="swtbtn">Signup</span></p>
   </form>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <div v-if="user">
-      <p>{{ user.displayName }}</p>
+      <p class="currentname">{{ user.displayName }}</p>
       <p>You are login as {{ user.email }}</p>
     </div>
     <div>

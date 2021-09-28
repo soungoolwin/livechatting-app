@@ -18,7 +18,7 @@
     </div>
     <p class="errstyle" v-if="err">{{err}}</p>
     <button type="submit" class="btn btn-primary">Signup</button>
-    <p>Have already account?<span @click="switchlogin">Login</span></p>
+    <p>Have already account? <span @click="switchlogin" class="swtbtn">Login</span></p>
   </form>
 </template>
 
