@@ -27,7 +27,7 @@ onUpdated(()=>{
      let result = [];
      snap.docs.forEach((doc)=>{
        let document = {...doc.data(),id:doc.id};
-       result.push(document)
+      doc.data().created_at && result.push(document)
      })
      messages.value = result;
    })

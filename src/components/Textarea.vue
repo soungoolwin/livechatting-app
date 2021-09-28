@@ -1,6 +1,6 @@
 <template>
 <div class="input-group mb-3">
-  <input type="text" class="form-control" placeholder="Type Text and Click Send" v-model="usermessage">
+  <input type="text" class="form-control" placeholder="Type Text and Click Send" v-model="usermessage" @keypress.enter="savemestodb">
   <div class="input-group-append">
     <button class="btn btn-outline-secondary" type="button" @click="savemestodb">Send</button>
   </div>
