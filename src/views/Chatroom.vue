@@ -1,5 +1,5 @@
 <template>
-  <div class="card text-center">
+  <div class="card text-center wholemesinterface">
     <div class="card-header">
         <Nameandemail></Nameandemail>
     </div>
